@@ -94,7 +94,6 @@
 // console.log(typeof true);
 // console.log(typeof 'Jonas')
 
-
 // const birthYear = 1991
 // console.log(birthYear)
 
@@ -108,4 +107,28 @@
 // var job = "Programmer";
 // job = "teacher"
 
+// const age = 15;
+// const isOldEnough = age >= 18;
 
+// if (isOldEnough) {
+//     console.log("Sarah can start driving 😃")
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`too young, wait another ${yearsLeft} years`)
+// }
+
+// const inputYear = '1991';
+// console.log(Number(inputYear))
+
+// console.log(Boolean(0))
+// console.log(Boolean(undefined))
+// console.log(Boolean('Jonas'))
+// console.log(Boolean({}))
+
+// Always use === to compare valueskkk
+// console.log("hi");
+// const favorite = Number(prompt("what is your favorite number"))
+
+// if (favorite === 23) {
+//     console.log("LEBRONNNN JAMES")
+// }
