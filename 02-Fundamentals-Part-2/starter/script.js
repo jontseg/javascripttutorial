@@ -31,13 +31,31 @@
 // console.log(age)
 
 // Arrow Functions
-const calcAge3 = (birthYear) => 2037 - birthYear;
+// const calcAge3 = (birthYear) => 2037 - birthYear;
 
-const yearsUntilRetirement = (birthYear, firstName) => {
-  const age = 2037 - birthYear;
-  const retirement = 65 - age;
-  return `${firstName} retires in ${retirement} years`;
-};
+// const yearsUntilRetirement = (birthYear, firstName) => {
+//   const age = 2037 - birthYear;
+//   const retirement = 65 - age;
+//   return `${firstName} retires in ${retirement} years`;
+// };
 
-console.log("Age: ", calcAge3(1991))
-console.log(yearsUntilRetirement(1991, "Joe"))
+// console.log("Age: ", calcAge3(1991))
+// console.log(yearsUntilRetirement(1991, "Joe"))
+
+// function cutFruitPieces(fruit) {
+//     return fruit * 4;
+// }
+
+// function fruitProcessor(apples, oranges) {
+//     cutFruitPieces(apples)
+// }
+
+const friend1 = "Micheal";
+const friend2 = "Steven";
+const frined3 = "Peter";
+
+const friends = ["Micheal", "Steven", "Peter"];
+const years = new Array(1991, 1984, 2000, 2020);
+
+friends[1] = "John"
+console.log(friends)
